@@ -20,3 +20,21 @@ python decode.py image_path --show
 ```
 
 To know the approach used, go through the notebook [Image__Steganography.ipynb](Image__Steganography.ipynb). 
+
+## Example
+
+Given the following image, 
+
+![](bharat_mata.png)
+
+we want to decode the message saying "Vanday Matram", 
+
+`python encode.py -i bharat_mata.png -m "Vanday Matram" -s image_encoded.png`
+
+which can later be decoded by the command -
+
+`python decode.py images/image_encoded.png`
+
+To visualize the hidden message on the image, use - 
+`python decode.py images/image_encoded.png --show`
+
