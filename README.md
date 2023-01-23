@@ -11,6 +11,8 @@ Most of the information is stored in the MSB, so, any change made in MSB will re
 Using this information, we can embed any hidden message in the LSB of the pixels, and the overall image will look the same. 
 
 In this program, we first see how we can approach this problem, step by step method is mentioned in the [jupyter notebook](Image__Steganography.ipynb) , then once the aprroach is final, we will make it into a script through which we can run it from terminal without the need of going into the code. 
+
+Video - [Code walkthrough](https://youtu.be/5M3kjYLShlk)
 ## Terminal run
 
 To Encode message in Image - 
